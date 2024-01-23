@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NewsCardsViewController" customModule="HashTag" customModuleProvider="target">
+            <connections>
+                <outlet property="cardSwiper" destination="tmk-5C-edD" id="0Px-yG-OKp"/>
+                <outlet property="header" destination="TZP-dC-3q5" id="tV5-QX-SuV"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TZP-dC-3q5" customClass="AuthNavigation" customModule="HashTag" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="100"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="Lm9-2K-d3C"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tmk-5C-edD" customClass="VerticalCardSwiper" customModule="VerticalCardSwiper">
+                    <rect key="frame" x="0.0" y="108" width="393" height="710"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="isSideSwipingEnabled" value="NO"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="tmk-5C-edD" firstAttribute="top" secondItem="TZP-dC-3q5" secondAttribute="bottom" constant="8" id="A15-U4-k7M"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="tmk-5C-edD" secondAttribute="bottom" id="Luu-a2-9sK"/>
+                <constraint firstItem="TZP-dC-3q5" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="gpr-Lo-JWd"/>
+                <constraint firstItem="TZP-dC-3q5" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="rCD-rI-oAx"/>
+                <constraint firstItem="TZP-dC-3q5" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="vRN-nH-ip0"/>
+                <constraint firstItem="tmk-5C-edD" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="wVS-o4-UVc"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="tmk-5C-edD" secondAttribute="trailing" id="yT4-to-ox6"/>
+            </constraints>
+            <point key="canvasLocation" x="64.885496183206101" y="-1.4084507042253522"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

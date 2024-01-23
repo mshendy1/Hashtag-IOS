@@ -1,0 +1,5 @@
+xcassets:
+  inputs: /dir/to/search/for/imageset/assets
+  outputs:
+    templateName: swift5
+    output: Assets.swift

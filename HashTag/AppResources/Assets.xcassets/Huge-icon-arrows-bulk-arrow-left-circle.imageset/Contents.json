@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Huge-icon-arrows-bulk-arrow-left-circle.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Huge-icon-arrows-bulk-arrow-left-circle 1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Huge-icon-arrows-bulk-arrow-left-circle 2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

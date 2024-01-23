@@ -1,0 +1,1867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F33BE898-586B-4326-B1DC-DA66B252C843"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "44E3239A-D8C4-4A1A-9941-3389E97067F6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/LanguageManager-iOS/LanguageManager-iOS/Classes/Helpers/Extensions/UIImageView+Direction.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "UIImageView"
+            landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "43791E14-DA15-43F4-8C3D-FE494A6DCD1D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HashTag/AppFlow/Modules/HomeFlow/Home/View/TableViewDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D7074BA9-59A6-46D2-B1A3-46F69BA8CFA1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HashTag/AppFlow/Modules/TabBar/FavouritesFlow/FavouritesNetworkManager/FavouritesNetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "getFavEventsApi(deviceId:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4E0711EF-AAFA-4795-9C85-CE20A6F4B6B7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HashTag/AppFlow/Modules/TabBar/FavouritesFlow/FavouritesNetworkManager/FavouritesNetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
+            landmarkName = "getFavPollsApi(deviceId:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4C87A4FB-AB79-43C9-B0C7-37A677CE816B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HashTag/AppFlow/Modules/TabBar/HomeFlow/PostDetails/View/PostDetails+TableDelegates.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "875DDBE5-753A-4411-A182-82CF8B6E6599"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HashTag/AppFlow/Modules/TabBar/HomeFlow/CreateEvent/Googleplaces/GoogleplacesVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "203"
+            endingLineNumber = "203"
+            landmarkName = "getAddressFromLatLon(pdblLatitude:withLongitude:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "875DDBE5-753A-4411-A182-82CF8B6E6599 - ea252e6a7174f04"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;__C.CLPlacemark&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in HashTag.GoogleplacesVC.getAddressFromLatLon(pdblLatitude: Swift.String, withLongitude: Swift.String) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter/HashTag/AppFlow/Modules/TabBar/HomeFlow/CreateEvent/Googleplaces/GoogleplacesVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "203"
+                  endingLineNumber = "203"
+                  offsetFromSymbolStart = "2291">
+               </Location>
+               <Location
+                  uuid = "875DDBE5-753A-4411-A182-82CF8B6E6599 - ea252e6a7174f04"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;__C.CLPlacemark&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in HashTag.GoogleplacesVC.getAddressFromLatLon(pdblLatitude: Swift.String, withLongitude: Swift.String) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter/HashTag/AppFlow/Modules/TabBar/HomeFlow/CreateEvent/Googleplaces/GoogleplacesVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "203"
+                  endingLineNumber = "203"
+                  offsetFromSymbolStart = "2036">
+               </Location>
+               <Location
+                  uuid = "875DDBE5-753A-4411-A182-82CF8B6E6599 - c2f68d53c4cd36ae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;__C.CLPlacemark&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in HashTag.GoogleplacesVC.getAddressFromLatLon(pdblLatitude: Swift.String, withLongitude: Swift.String) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter%202/HashTag/AppFlow/Modules/TabBar/HomeFlow/CreateEvent/Googleplaces/GoogleplacesVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "203"
+                  endingLineNumber = "203"
+                  offsetFromSymbolStart = "2036">
+               </Location>
+               <Location
+                  uuid = "875DDBE5-753A-4411-A182-82CF8B6E6599 - 58f5f3549ca7abcb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;__C.CLPlacemark&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in HashTag.GoogleplacesVC.getAddressFromLatLon(pdblLatitude: Swift.String, withLongitude: Swift.String) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter%202%202/HashTag/AppFlow/Modules/TabBar/HomeFlow/CreateEvent/Googleplaces/GoogleplacesVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "203"
+                  endingLineNumber = "203"
+                  offsetFromSymbolStart = "2291">
+               </Location>
+               <Location
+                  uuid = "875DDBE5-753A-4411-A182-82CF8B6E6599 - 365317284e382c02"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;__C.CLPlacemark&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in HashTag.GoogleplacesVC.getAddressFromLatLon(pdblLatitude: Swift.String, withLongitude: Swift.String) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTag%20APPLICATIONS/HashTagOriginalFBFilter%202%202/HashTag/AppFlow/Modules/TabBar/HomeFlow/CreateEvent/Googleplaces/GoogleplacesVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "203"
+                  endingLineNumber = "203"
+                  offsetFromSymbolStart = "2088">
+               </Location>
+               <Location
+                  uuid = "875DDBE5-753A-4411-A182-82CF8B6E6599 - 365317284e382c02"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;__C.CLPlacemark&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in HashTag.GoogleplacesVC.getAddressFromLatLon(pdblLatitude: Swift.String, withLongitude: Swift.String) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTag%20APPLICATIONS/HashTagOriginalFBFilter%202%202/HashTag/AppFlow/Modules/TabBar/HomeFlow/CreateEvent/Googleplaces/GoogleplacesVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "203"
+                  endingLineNumber = "203"
+                  offsetFromSymbolStart = "2356">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "75F3625E-D87E-40EB-B5CF-D6C57E06019A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HashTag/AppFlow/Modules/TabBar/HomeFlow/CreateEvent/CreateEventVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "260"
+            endingLineNumber = "260"
+            landmarkName = "addEventAction(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "75F3625E-D87E-40EB-B5CF-D6C57E06019A - 756c767667d7ce32"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.CreateEventVC.addEventAction(__C.UIButton) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter%202/HashTag/AppFlow/Modules/TabBar/HomeFlow/CreateEvent/CreateEventVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "258"
+                  endingLineNumber = "258"
+                  offsetFromSymbolStart = "7636">
+               </Location>
+               <Location
+                  uuid = "75F3625E-D87E-40EB-B5CF-D6C57E06019A - 756c767667d7ce1d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.CreateEventVC.addEventAction(__C.UIButton) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter%202/HashTag/AppFlow/Modules/TabBar/HomeFlow/CreateEvent/CreateEventVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "259"
+                  endingLineNumber = "259"
+                  offsetFromSymbolStart = "7700">
+               </Location>
+               <Location
+                  uuid = "75F3625E-D87E-40EB-B5CF-D6C57E06019A - 756c767667d7ce1d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.CreateEventVC.addEventAction(__C.UIButton) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter%202/HashTag/AppFlow/Modules/TabBar/HomeFlow/CreateEvent/CreateEventVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "259"
+                  endingLineNumber = "259"
+                  offsetFromSymbolStart = "13540">
+               </Location>
+               <Location
+                  uuid = "75F3625E-D87E-40EB-B5CF-D6C57E06019A - 756c767667d7cefc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.CreateEventVC.addEventAction(__C.UIButton) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter%202/HashTag/AppFlow/Modules/TabBar/HomeFlow/CreateEvent/CreateEventVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "260"
+                  endingLineNumber = "260"
+                  offsetFromSymbolStart = "7700">
+               </Location>
+               <Location
+                  uuid = "75F3625E-D87E-40EB-B5CF-D6C57E06019A - 756c767667d7cefc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.CreateEventVC.addEventAction(__C.UIButton) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter%202/HashTag/AppFlow/Modules/TabBar/HomeFlow/CreateEvent/CreateEventVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "260"
+                  endingLineNumber = "260"
+                  offsetFromSymbolStart = "13540">
+               </Location>
+               <Location
+                  uuid = "75F3625E-D87E-40EB-B5CF-D6C57E06019A - 4d0ca1f4d89046cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.CreateEventVC.addEventAction(__C.UIButton) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter%202%202/HashTag/AppFlow/Modules/TabBar/HomeFlow/CreateEvent/CreateEventVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "260"
+                  endingLineNumber = "260"
+                  offsetFromSymbolStart = "8715">
+               </Location>
+               <Location
+                  uuid = "75F3625E-D87E-40EB-B5CF-D6C57E06019A - 4d0ca1f4d89046cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.CreateEventVC.addEventAction(__C.UIButton) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter%202%202/HashTag/AppFlow/Modules/TabBar/HomeFlow/CreateEvent/CreateEventVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "260"
+                  endingLineNumber = "260"
+                  offsetFromSymbolStart = "15235">
+               </Location>
+               <Location
+                  uuid = "75F3625E-D87E-40EB-B5CF-D6C57E06019A - dd45b0c9f27314a6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.CreateEventVC.addEventAction(__C.UIButton) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTag%20APPLICATIONS/HashTagOriginalFBFilter%202%202/HashTag/AppFlow/Modules/TabBar/HomeFlow/CreateEvent/CreateEventVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "260"
+                  endingLineNumber = "260"
+                  offsetFromSymbolStart = "7816">
+               </Location>
+               <Location
+                  uuid = "75F3625E-D87E-40EB-B5CF-D6C57E06019A - dd45b0c9f27314a6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.CreateEventVC.addEventAction(__C.UIButton) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTag%20APPLICATIONS/HashTagOriginalFBFilter%202%202/HashTag/AppFlow/Modules/TabBar/HomeFlow/CreateEvent/CreateEventVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "260"
+                  endingLineNumber = "260"
+                  offsetFromSymbolStart = "8919">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7DBEA6AF-749F-40C1-916E-BA885A946412"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HashTag/AppFlow/Modules/TabBar/HomeFlow/CreateEvent/CreateEventVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "249"
+            endingLineNumber = "249"
+            landmarkName = "addEventAction(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7DBEA6AF-749F-40C1-916E-BA885A946412 - 756c767667d7cf68"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.CreateEventVC.addEventAction(__C.UIButton) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter%202/HashTag/AppFlow/Modules/TabBar/HomeFlow/CreateEvent/CreateEventVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "248"
+                  endingLineNumber = "248"
+                  offsetFromSymbolStart = "664">
+               </Location>
+               <Location
+                  uuid = "7DBEA6AF-749F-40C1-916E-BA885A946412 - 756c767667d7cf4b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.CreateEventVC.addEventAction(__C.UIButton) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter%202/HashTag/AppFlow/Modules/TabBar/HomeFlow/CreateEvent/CreateEventVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "249"
+                  endingLineNumber = "249"
+                  offsetFromSymbolStart = "664">
+               </Location>
+               <Location
+                  uuid = "7DBEA6AF-749F-40C1-916E-BA885A946412 - 4d0ca1f4d8904758"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.CreateEventVC.addEventAction(__C.UIButton) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter%202%202/HashTag/AppFlow/Modules/TabBar/HomeFlow/CreateEvent/CreateEventVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "249"
+                  endingLineNumber = "249"
+                  offsetFromSymbolStart = "319">
+               </Location>
+               <Location
+                  uuid = "7DBEA6AF-749F-40C1-916E-BA885A946412 - dd45b0c9f273153d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.CreateEventVC.addEventAction(__C.UIButton) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTag%20APPLICATIONS/HashTagOriginalFBFilter%202%202/HashTag/AppFlow/Modules/TabBar/HomeFlow/CreateEvent/CreateEventVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "249"
+                  endingLineNumber = "249"
+                  offsetFromSymbolStart = "700">
+               </Location>
+               <Location
+                  uuid = "7DBEA6AF-749F-40C1-916E-BA885A946412 - dd45b0c9f273153d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.CreateEventVC.addEventAction(__C.UIButton) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTag%20APPLICATIONS/HashTagOriginalFBFilter%202%202/HashTag/AppFlow/Modules/TabBar/HomeFlow/CreateEvent/CreateEventVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "249"
+                  endingLineNumber = "249"
+                  offsetFromSymbolStart = "337">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8CAA3E67-D6D4-4259-98A5-27C69856C526"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HashTag/AppFlow/Modules/Auth/Login/View/FacebookLogin.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "getFBUserData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8CAA3E67-D6D4-4259-98A5-27C69856C526 - f7debd483f36ca8a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FBSDKGraphRequestConnection&gt;, Swift.Optional&lt;Any&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in HashTag.LoginVC.getFBUserData() -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter/HashTag/AppFlow/Modules/Auth/Login/View/FacebookLogin.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "6230">
+               </Location>
+               <Location
+                  uuid = "8CAA3E67-D6D4-4259-98A5-27C69856C526 - f7debd483f36ca8a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FBSDKGraphRequestConnection&gt;, Swift.Optional&lt;Any&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in HashTag.LoginVC.getFBUserData() -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter/HashTag/AppFlow/Modules/Auth/Login/View/FacebookLogin.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "5280">
+               </Location>
+               <Location
+                  uuid = "8CAA3E67-D6D4-4259-98A5-27C69856C526 - f7debd483f36ca8a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FBSDKGraphRequestConnection&gt;, Swift.Optional&lt;Any&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in HashTag.LoginVC.getFBUserData() -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter/HashTag/AppFlow/Modules/Auth/Login/View/FacebookLogin.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "6218">
+               </Location>
+               <Location
+                  uuid = "8CAA3E67-D6D4-4259-98A5-27C69856C526 - f7debd483f36caa9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FBSDKGraphRequestConnection&gt;, Swift.Optional&lt;Any&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in HashTag.LoginVC.getFBUserData() -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter/HashTag/AppFlow/Modules/Auth/Login/View/FacebookLogin.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "5288">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "395C4C7B-C061-43AA-AC24-36C26917DBA0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HashTag/AppFlow/Modules/Auth/Login/View/Apple+Login.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "authorizationController(controller:didCompleteWithAuthorization:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "395C4C7B-C061-43AA-AC24-36C26917DBA0 - 9687cf17da1d7d54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.LoginVC.authorizationController(controller: __C.ASAuthorizationController, didCompleteWithAuthorization: __C.ASAuthorization) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter/HashTag/AppFlow/Modules/Auth/Login/View/Apple+Login.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "6004">
+               </Location>
+               <Location
+                  uuid = "395C4C7B-C061-43AA-AC24-36C26917DBA0 - 9687cf17da1d7d54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.LoginVC.authorizationController(controller: __C.ASAuthorizationController, didCompleteWithAuthorization: __C.ASAuthorization) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter/HashTag/AppFlow/Modules/Auth/Login/View/Apple+Login.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "4552">
+               </Location>
+               <Location
+                  uuid = "395C4C7B-C061-43AA-AC24-36C26917DBA0 - 9687cf17da1d7d54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.LoginVC.authorizationController(controller: __C.ASAuthorizationController, didCompleteWithAuthorization: __C.ASAuthorization) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter/HashTag/AppFlow/Modules/Auth/Login/View/Apple+Login.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "4572">
+               </Location>
+               <Location
+                  uuid = "395C4C7B-C061-43AA-AC24-36C26917DBA0 - 9687cf17da1d7d54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.LoginVC.authorizationController(controller: __C.ASAuthorizationController, didCompleteWithAuthorization: __C.ASAuthorization) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter/HashTag/AppFlow/Modules/Auth/Login/View/Apple+Login.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "6700">
+               </Location>
+               <Location
+                  uuid = "395C4C7B-C061-43AA-AC24-36C26917DBA0 - 9687cf17da1d7d54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.LoginVC.authorizationController(controller: __C.ASAuthorizationController, didCompleteWithAuthorization: __C.ASAuthorization) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter/HashTag/AppFlow/Modules/Auth/Login/View/Apple+Login.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "6076">
+               </Location>
+               <Location
+                  uuid = "395C4C7B-C061-43AA-AC24-36C26917DBA0 - 9687cf17da1d7d54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.LoginVC.authorizationController(controller: __C.ASAuthorizationController, didCompleteWithAuthorization: __C.ASAuthorization) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter/HashTag/AppFlow/Modules/Auth/Login/View/Apple+Login.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "5832">
+               </Location>
+               <Location
+                  uuid = "395C4C7B-C061-43AA-AC24-36C26917DBA0 - 9687cf17da1d7d35"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.LoginVC.authorizationController(controller: __C.ASAuthorizationController, didCompleteWithAuthorization: __C.ASAuthorization) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter/HashTag/AppFlow/Modules/Auth/Login/View/Apple+Login.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "6012">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6E3E7D2F-37AF-4C15-B07C-9DEAF0CB12A2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HashTag/AppFlow/Modules/Auth/Login/View/Apple+Login.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "authorizationController(controller:didCompleteWithAuthorization:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6E3E7D2F-37AF-4C15-B07C-9DEAF0CB12A2 - 9687cf17da1d7d54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.LoginVC.authorizationController(controller: __C.ASAuthorizationController, didCompleteWithAuthorization: __C.ASAuthorization) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter/HashTag/AppFlow/Modules/Auth/Login/View/Apple+Login.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "6004">
+               </Location>
+               <Location
+                  uuid = "6E3E7D2F-37AF-4C15-B07C-9DEAF0CB12A2 - 9687cf17da1d7d54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.LoginVC.authorizationController(controller: __C.ASAuthorizationController, didCompleteWithAuthorization: __C.ASAuthorization) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter/HashTag/AppFlow/Modules/Auth/Login/View/Apple+Login.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "4552">
+               </Location>
+               <Location
+                  uuid = "6E3E7D2F-37AF-4C15-B07C-9DEAF0CB12A2 - 9687cf17da1d7d54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.LoginVC.authorizationController(controller: __C.ASAuthorizationController, didCompleteWithAuthorization: __C.ASAuthorization) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter/HashTag/AppFlow/Modules/Auth/Login/View/Apple+Login.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "4572">
+               </Location>
+               <Location
+                  uuid = "6E3E7D2F-37AF-4C15-B07C-9DEAF0CB12A2 - 9687cf17da1d7d54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.LoginVC.authorizationController(controller: __C.ASAuthorizationController, didCompleteWithAuthorization: __C.ASAuthorization) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter/HashTag/AppFlow/Modules/Auth/Login/View/Apple+Login.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "6700">
+               </Location>
+               <Location
+                  uuid = "6E3E7D2F-37AF-4C15-B07C-9DEAF0CB12A2 - 9687cf17da1d7d54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.LoginVC.authorizationController(controller: __C.ASAuthorizationController, didCompleteWithAuthorization: __C.ASAuthorization) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter/HashTag/AppFlow/Modules/Auth/Login/View/Apple+Login.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "6076">
+               </Location>
+               <Location
+                  uuid = "6E3E7D2F-37AF-4C15-B07C-9DEAF0CB12A2 - 9687cf17da1d7d54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.LoginVC.authorizationController(controller: __C.ASAuthorizationController, didCompleteWithAuthorization: __C.ASAuthorization) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter/HashTag/AppFlow/Modules/Auth/Login/View/Apple+Login.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "5832">
+               </Location>
+               <Location
+                  uuid = "6E3E7D2F-37AF-4C15-B07C-9DEAF0CB12A2 - 9687cf17da1d7d35"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.LoginVC.authorizationController(controller: __C.ASAuthorizationController, didCompleteWithAuthorization: __C.ASAuthorization) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter/HashTag/AppFlow/Modules/Auth/Login/View/Apple+Login.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "6012">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "29D4CA15-8EE2-4489-B63A-F1D8C9F5FDFF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HashTag/AppFlow/Modules/Auth/Login/View/Apple+Login.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "authorizationController(controller:didCompleteWithAuthorization:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "29D4CA15-8EE2-4489-B63A-F1D8C9F5FDFF - 9687cf17da1d78c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.LoginVC.authorizationController(controller: __C.ASAuthorizationController, didCompleteWithAuthorization: __C.ASAuthorization) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter/HashTag/AppFlow/Modules/Auth/Login/View/Apple+Login.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "5212">
+               </Location>
+               <Location
+                  uuid = "29D4CA15-8EE2-4489-B63A-F1D8C9F5FDFF - 9687cf17da1d78c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.LoginVC.authorizationController(controller: __C.ASAuthorizationController, didCompleteWithAuthorization: __C.ASAuthorization) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter/HashTag/AppFlow/Modules/Auth/Login/View/Apple+Login.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "3812">
+               </Location>
+               <Location
+                  uuid = "29D4CA15-8EE2-4489-B63A-F1D8C9F5FDFF - 9687cf17da1d78c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.LoginVC.authorizationController(controller: __C.ASAuthorizationController, didCompleteWithAuthorization: __C.ASAuthorization) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter/HashTag/AppFlow/Modules/Auth/Login/View/Apple+Login.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "3832">
+               </Location>
+               <Location
+                  uuid = "29D4CA15-8EE2-4489-B63A-F1D8C9F5FDFF - 9687cf17da1d78c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.LoginVC.authorizationController(controller: __C.ASAuthorizationController, didCompleteWithAuthorization: __C.ASAuthorization) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter/HashTag/AppFlow/Modules/Auth/Login/View/Apple+Login.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "5572">
+               </Location>
+               <Location
+                  uuid = "29D4CA15-8EE2-4489-B63A-F1D8C9F5FDFF - 9687cf17da1d78c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.LoginVC.authorizationController(controller: __C.ASAuthorizationController, didCompleteWithAuthorization: __C.ASAuthorization) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter/HashTag/AppFlow/Modules/Auth/Login/View/Apple+Login.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "5056">
+               </Location>
+               <Location
+                  uuid = "29D4CA15-8EE2-4489-B63A-F1D8C9F5FDFF - 9687cf17da1d78c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.LoginVC.authorizationController(controller: __C.ASAuthorizationController, didCompleteWithAuthorization: __C.ASAuthorization) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter/HashTag/AppFlow/Modules/Auth/Login/View/Apple+Login.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "5040">
+               </Location>
+               <Location
+                  uuid = "29D4CA15-8EE2-4489-B63A-F1D8C9F5FDFF - 9687cf17da1d78a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.LoginVC.authorizationController(controller: __C.ASAuthorizationController, didCompleteWithAuthorization: __C.ASAuthorization) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter/HashTag/AppFlow/Modules/Auth/Login/View/Apple+Login.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "5224">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2E95F6AF-0910-4895-A30F-724C68E725D7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HashTag/AppFlow/Modules/Auth/Login/View/Apple+Login.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "authorizationController(controller:didCompleteWithAuthorization:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2E95F6AF-0910-4895-A30F-724C68E725D7 - 9687cf17da1d7886"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.LoginVC.authorizationController(controller: __C.ASAuthorizationController, didCompleteWithAuthorization: __C.ASAuthorization) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter/HashTag/AppFlow/Modules/Auth/Login/View/Apple+Login.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "5220">
+               </Location>
+               <Location
+                  uuid = "2E95F6AF-0910-4895-A30F-724C68E725D7 - 9687cf17da1d7886"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.LoginVC.authorizationController(controller: __C.ASAuthorizationController, didCompleteWithAuthorization: __C.ASAuthorization) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter/HashTag/AppFlow/Modules/Auth/Login/View/Apple+Login.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "3820">
+               </Location>
+               <Location
+                  uuid = "2E95F6AF-0910-4895-A30F-724C68E725D7 - 9687cf17da1d7886"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.LoginVC.authorizationController(controller: __C.ASAuthorizationController, didCompleteWithAuthorization: __C.ASAuthorization) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter/HashTag/AppFlow/Modules/Auth/Login/View/Apple+Login.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "3840">
+               </Location>
+               <Location
+                  uuid = "2E95F6AF-0910-4895-A30F-724C68E725D7 - 9687cf17da1d7886"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.LoginVC.authorizationController(controller: __C.ASAuthorizationController, didCompleteWithAuthorization: __C.ASAuthorization) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter/HashTag/AppFlow/Modules/Auth/Login/View/Apple+Login.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "5580">
+               </Location>
+               <Location
+                  uuid = "2E95F6AF-0910-4895-A30F-724C68E725D7 - 9687cf17da1d7886"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.LoginVC.authorizationController(controller: __C.ASAuthorizationController, didCompleteWithAuthorization: __C.ASAuthorization) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter/HashTag/AppFlow/Modules/Auth/Login/View/Apple+Login.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "5064">
+               </Location>
+               <Location
+                  uuid = "2E95F6AF-0910-4895-A30F-724C68E725D7 - 9687cf17da1d7886"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.LoginVC.authorizationController(controller: __C.ASAuthorizationController, didCompleteWithAuthorization: __C.ASAuthorization) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter/HashTag/AppFlow/Modules/Auth/Login/View/Apple+Login.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "5048">
+               </Location>
+               <Location
+                  uuid = "2E95F6AF-0910-4895-A30F-724C68E725D7 - 9687cf17da1d7b67"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.LoginVC.authorizationController(controller: __C.ASAuthorizationController, didCompleteWithAuthorization: __C.ASAuthorization) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter/HashTag/AppFlow/Modules/Auth/Login/View/Apple+Login.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "5236">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "09DF9959-4364-4926-AE56-810152F38375"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HashTag/AppFlow/Modules/Auth/Login/View/Twitter+Login.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "getUserProfile()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "09DF9959-4364-4926-AE56-810152F38375 - 3a8773acb6b0e57c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;__C.TWTRSession&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in HashTag.LoginVC.TWTLogin() -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter/HashTag/AppFlow/Modules/Auth/Login/View/Twitter+Login.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "384">
+               </Location>
+               <Location
+                  uuid = "09DF9959-4364-4926-AE56-810152F38375 - 3628ddb29b57ec8d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swifter.JSON) -&gt; () in HashTag.LoginVC.getUserProfile() -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter/HashTag/AppFlow/Modules/Auth/Login/View/Twitter+Login.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "1596">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "37B2FC2D-ED0B-4BAE-8CE3-AB5980E51AA8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HashTag/AppFlow/Modules/TabBar/HomeFlow/NewsFilter/View/NewsFilterVC+CollectionDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "collectionView(_:didSelectItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8B2DAB83-843E-48A9-B485-B896DD4F33E3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HashTag/AppFlow/Modules/TabBar/HomeFlow/PostDetails/ViewModel/PostDetailsViewModel+Delegates.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "setBookMark()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0D22983E-A598-48FF-839C-6472BF68D61E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HashTag/AppFlow/Modules/TabBar/HomeFlow/Home/View/HomeVC+TableViewDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "410"
+            endingLineNumber = "410"
+            landmarkName = "addPoolsToFav(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0D22983E-A598-48FF-839C-6472BF68D61E - 58f88f58f351185d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.HomeVC.addPoolsToFav(__C.UIButton) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTag%20APPLICATIONS/HashTagOriginalFBFilter%202%202/HashTag/AppFlow/Modules/TabBar/HomeFlow/Home/View/HomeVC+TableViewDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "411"
+                  endingLineNumber = "411"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "0D22983E-A598-48FF-839C-6472BF68D61E - 58f88f58f351185d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.HomeVC.addPoolsToFav(__C.UIButton) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTag%20APPLICATIONS/HashTagOriginalFBFilter%202%202/HashTag/AppFlow/Modules/TabBar/HomeFlow/Home/View/HomeVC+TableViewDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "411"
+                  endingLineNumber = "411"
+                  offsetFromSymbolStart = "127">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "94665900-E918-4098-B458-568DE96418BE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HashTag/AppFlow/Modules/TabBar/HomeFlow/Home/View/HomeVC+TableViewDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "389"
+            endingLineNumber = "389"
+            landmarkName = "addEventToFav(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "94665900-E918-4098-B458-568DE96418BE - f53381d601895103"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.HomeVC.addEventToFav(__C.UIButton) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTag%20APPLICATIONS/HashTagOriginalFBFilter%202%202/HashTag/AppFlow/Modules/TabBar/HomeFlow/Home/View/HomeVC+TableViewDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "390"
+                  endingLineNumber = "390"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "94665900-E918-4098-B458-568DE96418BE - f53381d601895103"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.HomeVC.addEventToFav(__C.UIButton) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTag%20APPLICATIONS/HashTagOriginalFBFilter%202%202/HashTag/AppFlow/Modules/TabBar/HomeFlow/Home/View/HomeVC+TableViewDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "390"
+                  endingLineNumber = "390"
+                  offsetFromSymbolStart = "165">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "00210F65-9DB1-44DD-948B-B251A0DB78A5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HashTag/AppFlow/Modules/Auth/Password/ForgetPassword/View/ForgetPasswordVMDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "sendCodeSuccessfully()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "00210F65-9DB1-44DD-948B-B251A0DB78A5 - 9f3eb0f51f6bbf24"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in HashTag.ForgetPasswordVC.sendCodeSuccessfully() -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTag%20APPLICATIONS/HashTagOriginalFBFilter%202%202/HashTag/AppFlow/Modules/Auth/Password/ForgetPassword/View/ForgetPasswordVMDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "336">
+               </Location>
+               <Location
+                  uuid = "00210F65-9DB1-44DD-948B-B251A0DB78A5 - 9f3eb0f51f6bbf24"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in HashTag.ForgetPasswordVC.sendCodeSuccessfully() -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTag%20APPLICATIONS/HashTagOriginalFBFilter%202%202/HashTag/AppFlow/Modules/Auth/Password/ForgetPassword/View/ForgetPasswordVMDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "275">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8E837B14-58D1-408E-8297-C1C0FD0DE39B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HashTag/AppFlow/Modules/TabBar/HomeFlow/PollDetails/View/PollsDetailsVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "reLoadViewController()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8E837B14-58D1-408E-8297-C1C0FD0DE39B - e8bc17b17252ad19"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.PollsDetailsVC.reLoadViewController() -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTag%20APPLICATIONS/HashTagOriginalFBFilter%202%202/HashTag/AppFlow/Modules/TabBar/HomeFlow/PollDetails/View/PollsDetailsVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "127"
+                  endingLineNumber = "127"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "8E837B14-58D1-408E-8297-C1C0FD0DE39B - e8bc17b17252ad19"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.PollsDetailsVC.reLoadViewController() -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTag%20APPLICATIONS/HashTagOriginalFBFilter%202%202/HashTag/AppFlow/Modules/TabBar/HomeFlow/PollDetails/View/PollsDetailsVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "127"
+                  endingLineNumber = "127"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4C87466C-AF61-4770-8897-2E4AC0691D23"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HashTag/AppFlow/Modules/Auth/LoginSheetVC/View/LoginSheetVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "navigateToRegisterTapped()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4C87466C-AF61-4770-8897-2E4AC0691D23 - a2b02ca394ce27f7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.LoginSheetVC.navigateToRegisterTapped() -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter%202/HashTag/AppFlow/Modules/Auth/LoginSheetVC/View/LoginSheetVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  uuid = "4C87466C-AF61-4770-8897-2E4AC0691D23 - a2b02ca394ce27f7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.LoginSheetVC.navigateToRegisterTapped() -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter%202/HashTag/AppFlow/Modules/Auth/LoginSheetVC/View/LoginSheetVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "4C87466C-AF61-4770-8897-2E4AC0691D23 - 16acb39dff76007"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.LoginSheetVC.navigateToRegisterTapped() -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter%202%202/HashTag/AppFlow/Modules/Auth/LoginSheetVC/View/LoginSheetVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "30">
+               </Location>
+               <Location
+                  uuid = "4C87466C-AF61-4770-8897-2E4AC0691D23 - 9eeb12980c1e4bc2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.LoginSheetVC.navigateToRegisterTapped() -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTag%20APPLICATIONS/HashTagOriginalFBFilter%202%202/HashTag/AppFlow/Modules/Auth/LoginSheetVC/View/LoginSheetVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "4C87466C-AF61-4770-8897-2E4AC0691D23 - 9eeb12980c1e4bc2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.LoginSheetVC.navigateToRegisterTapped() -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTag%20APPLICATIONS/HashTagOriginalFBFilter%202%202/HashTag/AppFlow/Modules/Auth/LoginSheetVC/View/LoginSheetVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "708EA439-7ADD-4643-88FF-445D1F2891E1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HashTag/AppFlow/Modules/TabBar/SettingFlow/Setting/View/SettingVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "dismissAndOpenRegister(fromSheet:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "708EA439-7ADD-4643-88FF-445D1F2891E1 - f60e73037433e545"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in HashTag.SettingVC.dismissAndOpenRegister(fromSheet: Swift.Bool) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTag%20APPLICATIONS/HashTagOriginalFBFilter%202%202/HashTag/AppFlow/Modules/TabBar/SettingFlow/Setting/View/SettingVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "708EA439-7ADD-4643-88FF-445D1F2891E1 - f60e73037433e545"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in HashTag.SettingVC.dismissAndOpenRegister(fromSheet: Swift.Bool) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTag%20APPLICATIONS/HashTagOriginalFBFilter%202%202/HashTag/AppFlow/Modules/TabBar/SettingFlow/Setting/View/SettingVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "136">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "938C4DD8-F604-4CEB-AAAC-3E01436DCDA2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HashTag/AppFlow/Modules/Auth/Register/View/RegisterVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "moveToLoginSheetVC()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "938C4DD8-F604-4CEB-AAAC-3E01436DCDA2 - 6e29d061e90b8b85"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.RegisterVC.moveToLoginSheetVC() -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTag%20APPLICATIONS/HashTagOriginalFBFilter%202%202/HashTag/AppFlow/Modules/Auth/Register/View/RegisterVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "938C4DD8-F604-4CEB-AAAC-3E01436DCDA2 - 6e29d061e90b8b85"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.RegisterVC.moveToLoginSheetVC() -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTag%20APPLICATIONS/HashTagOriginalFBFilter%202%202/HashTag/AppFlow/Modules/Auth/Register/View/RegisterVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "87">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "34F08738-6D74-4E69-BA16-19CC0BC97A19"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HashTag/AppFlow/Modules/TabBar/HomeFlow/CreateEvent/CreateEventViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "createEventApi(parameters:image:video:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "34F08738-6D74-4E69-BA16-19CC0BC97A19 - d8c3f6659d283512"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.CreateEventViewModel.createEventApi(parameters: Swift.Dictionary&lt;Swift.String, Any&gt;, image: Swift.Optional&lt;__C.UIImage&gt;, video: Swift.Optional&lt;Foundation.URL&gt;) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTag%20APPLICATIONS/HashTagOriginalFBFilter%202%202/HashTag/AppFlow/Modules/TabBar/HomeFlow/CreateEvent/CreateEventViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "34F08738-6D74-4E69-BA16-19CC0BC97A19 - d8c3f6659d283512"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.CreateEventViewModel.createEventApi(parameters: Swift.Dictionary&lt;Swift.String, Any&gt;, image: Swift.Optional&lt;__C.UIImage&gt;, video: Swift.Optional&lt;Foundation.URL&gt;) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTag%20APPLICATIONS/HashTagOriginalFBFilter%202%202/HashTag/AppFlow/Modules/TabBar/HomeFlow/CreateEvent/CreateEventViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "136">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0A74CD27-DD3A-49B0-B236-CFCB1E14F813"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HashTag/Core/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "200"
+            endingLineNumber = "200"
+            landmarkName = "userNotificationCenter(_:didReceive:withCompletionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0A74CD27-DD3A-49B0-B236-CFCB1E14F813 - 907fb995cfdf4440"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.AppDelegate.userNotificationCenter(_: __C.UNUserNotificationCenter, didReceive: __C.UNNotificationResponse, withCompletionHandler: () -&gt; ()) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter%202/HashTag/Core/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "204"
+                  endingLineNumber = "204"
+                  offsetFromSymbolStart = "492">
+               </Location>
+               <Location
+                  uuid = "0A74CD27-DD3A-49B0-B236-CFCB1E14F813 - 907fb995cfdf4440"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.AppDelegate.userNotificationCenter(_: __C.UNUserNotificationCenter, didReceive: __C.UNNotificationResponse, withCompletionHandler: () -&gt; ()) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter%202/HashTag/Core/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "204"
+                  endingLineNumber = "204"
+                  offsetFromSymbolStart = "400">
+               </Location>
+               <Location
+                  uuid = "0A74CD27-DD3A-49B0-B236-CFCB1E14F813 - 907fb995cfdf43dc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.AppDelegate.userNotificationCenter(_: __C.UNUserNotificationCenter, didReceive: __C.UNNotificationResponse, withCompletionHandler: () -&gt; ()) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter%202/HashTag/Core/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "200"
+                  endingLineNumber = "200"
+                  offsetFromSymbolStart = "400">
+               </Location>
+               <Location
+                  uuid = "0A74CD27-DD3A-49B0-B236-CFCB1E14F813 - 7d1f8481a221dd92"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.AppDelegate.userNotificationCenter(_: __C.UNUserNotificationCenter, didReceive: __C.UNNotificationResponse, withCompletionHandler: () -&gt; ()) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTagOriginalFBFilter%202%202/HashTag/Core/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "200"
+                  endingLineNumber = "200"
+                  offsetFromSymbolStart = "490">
+               </Location>
+               <Location
+                  uuid = "0A74CD27-DD3A-49B0-B236-CFCB1E14F813 - c3964e32bf9fac42"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.AppDelegate.userNotificationCenter(_: __C.UNUserNotificationCenter, didReceive: __C.UNNotificationResponse, withCompletionHandler: () -&gt; ()) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTag%20APPLICATIONS/HashTagOriginalFBFilter%202%202/HashTag/Core/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "200"
+                  endingLineNumber = "200"
+                  offsetFromSymbolStart = "408">
+               </Location>
+               <Location
+                  uuid = "0A74CD27-DD3A-49B0-B236-CFCB1E14F813 - c3964e32bf9fac42"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.AppDelegate.userNotificationCenter(_: __C.UNUserNotificationCenter, didReceive: __C.UNNotificationResponse, withCompletionHandler: () -&gt; ()) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTag%20APPLICATIONS/HashTagOriginalFBFilter%202%202/HashTag/Core/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "200"
+                  endingLineNumber = "200"
+                  offsetFromSymbolStart = "482">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "00A04FFC-6DEF-460C-8C5F-4579AE0CD942"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HashTag/AppFlow/Modules/TabBar/HomeFlow/Home/ViewModel/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "HomeViewModel"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "00A04FFC-6DEF-460C-8C5F-4579AE0CD942 - bc024ed6f9b79772"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.HomeViewModel.init(delegate: HashTag.HomeViewModelDelegates, outputDelegate: HashTag.HomeOutputDelegate) -&gt; HashTag.HomeViewModel"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTag%20APPLICATIONS/HashTagOriginalFBFilter%202%202/HashTag/AppFlow/Modules/TabBar/HomeFlow/Home/ViewModel/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "323">
+               </Location>
+               <Location
+                  uuid = "00A04FFC-6DEF-460C-8C5F-4579AE0CD942 - bc024ed6f9b79772"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.HomeViewModel.init(delegate: HashTag.HomeViewModelDelegates, outputDelegate: HashTag.HomeOutputDelegate) -&gt; HashTag.HomeViewModel"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTag%20APPLICATIONS/HashTagOriginalFBFilter%202%202/HashTag/AppFlow/Modules/TabBar/HomeFlow/Home/ViewModel/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "260">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "16B5A46F-D730-49B5-BF96-BD4C5D253D36"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HashTag/AppFlow/Modules/TabBar/HomeSecens/News/View/NewsVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "newsFilterAction(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "16B5A46F-D730-49B5-BF96-BD4C5D253D36 - 16e652d878951372"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.NewsVC.newsFilterAction(__C.UIButton) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTag%20APPLICATIONS/HashTagOriginalFBFilter%202%202/HashTag/AppFlow/Modules/TabBar/HomeSecens/News/View/NewsVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "16B5A46F-D730-49B5-BF96-BD4C5D253D36 - 16e652d878951372"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.NewsVC.newsFilterAction(__C.UIButton) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTag%20APPLICATIONS/HashTagOriginalFBFilter%202%202/HashTag/AppFlow/Modules/TabBar/HomeSecens/News/View/NewsVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A5F57207-9EDE-4D9B-ABBB-0BDE2BAEB613"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HashTag/AppFlow/Modules/TabBar/SettingFlow/MyEvents/View/MyEventsVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "openCreateEventVC(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A5F57207-9EDE-4D9B-ABBB-0BDE2BAEB613 - 93056acee850e3a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.MyEventsVC.openCreateEventVC(__C.UIButton) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTag%20APPLICATIONS/HashTagOriginalFBFilter%202%202/HashTag/AppFlow/Modules/TabBar/SettingFlow/MyEvents/View/MyEventsVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "A5F57207-9EDE-4D9B-ABBB-0BDE2BAEB613 - 93056acee850e3a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.MyEventsVC.openCreateEventVC(__C.UIButton) -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTag%20APPLICATIONS/HashTagOriginalFBFilter%202%202/HashTag/AppFlow/Modules/TabBar/SettingFlow/MyEvents/View/MyEventsVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "609E696F-14CB-4F46-B35F-CBBE91595DE6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HashTag/AppFlow/Modules/TabBar/HomeFlow/Home/View/HomeVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "301"
+            endingLineNumber = "301"
+            landmarkName = "openSearch()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "609E696F-14CB-4F46-B35F-CBBE91595DE6 - 571475a21f1176f8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.HomeVC.openSearch() -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTag%20APPLICATIONS/HashTagOriginalFBFilter%202%202/HashTag/AppFlow/Modules/TabBar/HomeFlow/Home/View/HomeVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "301"
+                  endingLineNumber = "301"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "609E696F-14CB-4F46-B35F-CBBE91595DE6 - 571475a21f1176f8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.HomeVC.openSearch() -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTag%20APPLICATIONS/HashTagOriginalFBFilter%202%202/HashTag/AppFlow/Modules/TabBar/HomeFlow/Home/View/HomeVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "301"
+                  endingLineNumber = "301"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "74F74D2B-9A6D-4BC1-BC2B-5DB2DC0B0A55"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HashTag/AppFlow/Modules/TabBar/HomeFlow/Home/ViewModel/HomeViewModelDelegates.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "329"
+            endingLineNumber = "329"
+            landmarkName = "moveToSearch()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "74F74D2B-9A6D-4BC1-BC2B-5DB2DC0B0A55 - be47a7d92775cd07"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.HomeVC.moveToSearch() -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTag%20APPLICATIONS/HashTagOriginalFBFilter%202%202/HashTag/AppFlow/Modules/TabBar/HomeFlow/Home/ViewModel/HomeViewModelDelegates.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "329"
+                  endingLineNumber = "329"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "74F74D2B-9A6D-4BC1-BC2B-5DB2DC0B0A55 - be47a7d92775cd07"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HashTag.HomeVC.moveToSearch() -&gt; ()"
+                  moduleName = "HashTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trend-hub/Downloads/Apps/HashTag%20APPLICATIONS/HashTagOriginalFBFilter%202%202/HashTag/AppFlow/Modules/TabBar/HomeFlow/Home/ViewModel/HomeViewModelDelegates.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "329"
+                  endingLineNumber = "329"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

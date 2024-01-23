@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomDatePicker" customModule="HashTag" customModuleProvider="target">
+            <connections>
+                <outlet property="cancelButton" destination="QfP-PH-79F" id="axr-ge-0d9"/>
+                <outlet property="datePicker" destination="Lid-fX-ImI" id="RM9-Ji-rIx"/>
+                <outlet property="dateView" destination="ahK-9m-PvW" id="f05-nx-XGJ"/>
+                <outlet property="okButton" destination="EbD-Ng-bLf" id="9vw-3B-k98"/>
+                <outlet property="parentView" destination="fss-X3-dyi" id="q6p-Dl-Xcq"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="fss-X3-dyi">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="760"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TPv-4I-7qu">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="760"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ahK-9m-PvW" userLabel="Date View">
+                            <rect key="frame" x="30" y="180" width="315" height="400"/>
+                            <subviews>
+                                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="Lid-fX-ImI">
+                                    <rect key="frame" x="0.0" y="0.0" width="315" height="350"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="tintColor" name="PrimaryColor"/>
+                                    <connections>
+                                        <action selector="datePickerData:" destination="-1" eventType="valueChanged" id="ye2-49-5Sc"/>
+                                    </connections>
+                                </datePicker>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Euc-82-6G3">
+                                    <rect key="frame" x="0.0" y="355" width="315" height="45"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QfP-PH-79F" customClass="HashTagButtonNoBG" customModule="HashTag" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="157.5" height="45"/>
+                                            <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <state key="normal" title="Button">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="cancelButton:" destination="-1" eventType="touchUpInside" id="pya-Rp-MRw"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EbD-Ng-bLf" customClass="HashTagButtonNoBG" customModule="HashTag" customModuleProvider="target">
+                                            <rect key="frame" x="157.5" y="0.0" width="157.5" height="45"/>
+                                            <color key="backgroundColor" name="PrimaryColor"/>
+                                            <state key="normal" title="Button">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="selectedButtonDate:" destination="-1" eventType="touchUpInside" id="5I5-7A-1l4"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstItem="EbD-Ng-bLf" firstAttribute="leading" secondItem="QfP-PH-79F" secondAttribute="trailing" id="4Ac-Gd-QVs"/>
+                                        <constraint firstItem="EbD-Ng-bLf" firstAttribute="top" secondItem="Euc-82-6G3" secondAttribute="top" id="GFL-xK-jK3"/>
+                                        <constraint firstAttribute="bottom" secondItem="QfP-PH-79F" secondAttribute="bottom" id="dlk-eM-qOd"/>
+                                        <constraint firstItem="QfP-PH-79F" firstAttribute="leading" secondItem="Euc-82-6G3" secondAttribute="leading" id="lwx-3J-NhT"/>
+                                        <constraint firstAttribute="trailing" secondItem="EbD-Ng-bLf" secondAttribute="trailing" id="mnr-4v-1Pi"/>
+                                        <constraint firstItem="QfP-PH-79F" firstAttribute="top" secondItem="Euc-82-6G3" secondAttribute="top" id="nVq-9w-eeh"/>
+                                        <constraint firstAttribute="height" constant="45" id="z0w-h8-7V8"/>
+                                        <constraint firstItem="EbD-Ng-bLf" firstAttribute="width" secondItem="QfP-PH-79F" secondAttribute="width" id="zWk-uN-0hh"/>
+                                        <constraint firstAttribute="bottom" secondItem="EbD-Ng-bLf" secondAttribute="bottom" id="zbv-lG-hpj"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="Euc-82-6G3" firstAttribute="top" secondItem="Lid-fX-ImI" secondAttribute="bottom" constant="5" id="Dla-sR-N65"/>
+                                <constraint firstItem="Lid-fX-ImI" firstAttribute="leading" secondItem="ahK-9m-PvW" secondAttribute="leading" id="MbX-1J-2p5"/>
+                                <constraint firstAttribute="bottom" secondItem="Euc-82-6G3" secondAttribute="bottom" id="UCW-Bl-Tsk"/>
+                                <constraint firstItem="Euc-82-6G3" firstAttribute="leading" secondItem="ahK-9m-PvW" secondAttribute="leading" id="ZwJ-mc-x3M"/>
+                                <constraint firstItem="Lid-fX-ImI" firstAttribute="top" secondItem="ahK-9m-PvW" secondAttribute="top" id="i6q-pT-pvy"/>
+                                <constraint firstAttribute="trailing" secondItem="Euc-82-6G3" secondAttribute="trailing" id="ioE-kx-bMz"/>
+                                <constraint firstAttribute="trailing" secondItem="Lid-fX-ImI" secondAttribute="trailing" id="jEe-6d-R3X"/>
+                                <constraint firstAttribute="height" constant="400" id="p5n-v1-Fux"/>
+                                <constraint firstAttribute="trailing" secondItem="Lid-fX-ImI" secondAttribute="trailing" id="scM-vT-g3I"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="ahK-9m-PvW" firstAttribute="centerY" secondItem="TPv-4I-7qu" secondAttribute="centerY" id="CkD-Ni-cnz"/>
+                        <constraint firstItem="ahK-9m-PvW" firstAttribute="leading" secondItem="TPv-4I-7qu" secondAttribute="leading" constant="30" id="Nxs-19-u4f"/>
+                        <constraint firstAttribute="trailing" secondItem="ahK-9m-PvW" secondAttribute="trailing" constant="30" id="Vlw-sD-fQ9"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Tob-XP-B9G"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="TPv-4I-7qu" firstAttribute="centerY" secondItem="fss-X3-dyi" secondAttribute="centerY" id="Dwz-uM-xQ1"/>
+                <constraint firstItem="TPv-4I-7qu" firstAttribute="top" secondItem="fss-X3-dyi" secondAttribute="top" id="J3M-Vs-gUT"/>
+                <constraint firstItem="TPv-4I-7qu" firstAttribute="leading" secondItem="Tob-XP-B9G" secondAttribute="leading" id="lwO-Pn-XTC"/>
+                <constraint firstItem="Tob-XP-B9G" firstAttribute="trailing" secondItem="TPv-4I-7qu" secondAttribute="trailing" id="nAG-Al-fNP"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="910.86956521739137" y="116.51785714285714"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="EbD-Ng-bLf">
+            <size key="intrinsicContentSize" width="46" height="30"/>
+        </designable>
+        <designable name="QfP-PH-79F">
+            <size key="intrinsicContentSize" width="46" height="30"/>
+        </designable>
+    </designables>
+    <resources>
+        <namedColor name="PrimaryColor">
+            <color red="0.019607843137254902" green="0.61960784313725492" blue="0.29411764705882354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

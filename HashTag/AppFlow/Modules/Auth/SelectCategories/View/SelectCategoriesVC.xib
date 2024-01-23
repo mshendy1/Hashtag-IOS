@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="din-next-lt-w23-bold.ttf">
+            <string>DINNextLTW23-Bold2</string>
+        </array>
+        <array key="din-next-lt-w23-regular.ttf">
+            <string>DINNextLTW23-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SelectCategoriesVC" customModule="HashTag" customModuleProvider="target">
+            <connections>
+                <outlet property="categoriesCollection" destination="78M-Ip-g4I" id="LeZ-Fe-g06"/>
+                <outlet property="header" destination="5tw-rR-qTW" id="Quw-Ct-dlO"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleAspectFit" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5tw-rR-qTW" customClass="AuthNavigation" customModule="HashTag" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="100"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="a69-SY-BvO"/>
+                    </constraints>
+                </view>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Url-lm-bSh">
+                    <rect key="frame" x="0.0" y="100" width="393" height="752"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="607-bj-evf">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="752"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="e2F-kf-ay9">
+                                    <rect key="frame" x="35" y="40.000000000000007" width="323" height="79.666666666666686"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose Categories" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Afx-3q-P5W" customClass="BoldLabel" customModule="HashTag" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="323" height="35.333333333333336"/>
+                                            <fontDescription key="fontDescription" name="DINNextLTW23-Bold2" family="DIN Next LT W23" pointSize="24"/>
+                                            <color key="textColor" red="0.12549019607843137" green="0.12941176470588234" blue="0.14117647058823529" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To give you a better experience, we need to know your gender and age" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dgz-NW-sM0" customClass="RegularLabel" customModule="HashTag" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="44.333333333333343" width="323" height="35.333333333333343"/>
+                                            <fontDescription key="fontDescription" name="DINNextLTW23-Regular" family="DIN Next LT W23" pointSize="12"/>
+                                            <color key="textColor" name="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="78M-Ip-g4I">
+                                    <rect key="frame" x="25" y="159.66666666666671" width="343" height="406.33333333333326"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="em4-iP-4ia">
+                                        <size key="itemSize" width="128" height="128"/>
+                                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    </collectionViewFlowLayout>
+                                </collectionView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rWB-1K-JB3" customClass="HashTagButton" customModule="HashTag" customModuleProvider="target">
+                                    <rect key="frame" x="24" y="606" width="345" height="66"/>
+                                    <color key="backgroundColor" name="PrimaryColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="66" id="Yhu-jK-uJM"/>
+                                    </constraints>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="Continue">
+                                        <color key="titleColor" systemColor="systemBackgroundColor"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="continueAction" destination="-1" eventType="touchUpInside" id="EcJ-ME-Qz1"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="e2F-kf-ay9" secondAttribute="trailing" constant="35" id="J8i-Nj-4ok"/>
+                                <constraint firstAttribute="height" constant="752" id="JwB-Ol-zbc"/>
+                                <constraint firstItem="e2F-kf-ay9" firstAttribute="leading" secondItem="607-bj-evf" secondAttribute="leading" constant="35" id="QkF-hl-FfI"/>
+                                <constraint firstAttribute="bottom" secondItem="rWB-1K-JB3" secondAttribute="bottom" constant="80" id="Sag-Kv-Ya6"/>
+                                <constraint firstItem="78M-Ip-g4I" firstAttribute="top" secondItem="e2F-kf-ay9" secondAttribute="bottom" constant="40" id="acg-qe-bWi"/>
+                                <constraint firstItem="78M-Ip-g4I" firstAttribute="leading" secondItem="607-bj-evf" secondAttribute="leading" constant="25" id="c9o-Lv-SWS"/>
+                                <constraint firstItem="e2F-kf-ay9" firstAttribute="top" secondItem="607-bj-evf" secondAttribute="top" constant="40" id="iTo-Fk-dWQ"/>
+                                <constraint firstItem="rWB-1K-JB3" firstAttribute="top" secondItem="78M-Ip-g4I" secondAttribute="bottom" constant="40" id="lIY-42-gVI"/>
+                                <constraint firstAttribute="trailing" secondItem="78M-Ip-g4I" secondAttribute="trailing" constant="25" id="mjj-lu-SUY"/>
+                                <constraint firstAttribute="trailing" secondItem="rWB-1K-JB3" secondAttribute="trailing" constant="24" id="moY-Bf-ngU"/>
+                                <constraint firstItem="rWB-1K-JB3" firstAttribute="leading" secondItem="607-bj-evf" secondAttribute="leading" constant="24" id="zON-QH-sES"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="607-bj-evf" secondAttribute="trailing" id="94Q-KB-hPe"/>
+                        <constraint firstAttribute="bottom" secondItem="607-bj-evf" secondAttribute="bottom" id="IuN-qR-tGN"/>
+                        <constraint firstItem="607-bj-evf" firstAttribute="top" secondItem="Url-lm-bSh" secondAttribute="top" id="bQl-NE-LUY"/>
+                        <constraint firstItem="607-bj-evf" firstAttribute="leading" secondItem="Url-lm-bSh" secondAttribute="leading" id="nc1-KH-kEG"/>
+                        <constraint firstItem="607-bj-evf" firstAttribute="width" secondItem="Url-lm-bSh" secondAttribute="width" id="y7F-ng-NXK"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="5tw-rR-qTW" secondAttribute="trailing" id="1Ar-a1-Afh"/>
+                <constraint firstAttribute="bottom" secondItem="Url-lm-bSh" secondAttribute="bottom" id="3TX-a0-iac"/>
+                <constraint firstItem="Url-lm-bSh" firstAttribute="top" secondItem="5tw-rR-qTW" secondAttribute="bottom" id="BER-cP-rZn"/>
+                <constraint firstItem="Url-lm-bSh" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="FJl-6l-ymK"/>
+                <constraint firstItem="Url-lm-bSh" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="aNZ-dS-gxc"/>
+                <constraint firstItem="5tw-rR-qTW" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="dg8-kz-5oD"/>
+                <constraint firstItem="Url-lm-bSh" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="gPp-Uq-oha"/>
+                <constraint firstItem="5tw-rR-qTW" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="hzT-bh-A97"/>
+            </constraints>
+            <point key="canvasLocation" x="26.717557251908396" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="rWB-1K-JB3">
+            <size key="intrinsicContentSize" width="62" height="30"/>
+        </designable>
+    </designables>
+    <resources>
+        <namedColor name="PrimaryColor">
+            <color red="0.019607843137254902" green="0.61960784313725492" blue="0.29411764705882354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="textColor">
+            <color red="0.46666666666666667" green="0.49411764705882355" blue="0.56470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

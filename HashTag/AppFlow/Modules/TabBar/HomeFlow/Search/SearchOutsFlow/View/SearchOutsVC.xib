@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="din-next-lt-w23-regular.ttf">
+            <string>DINNextLTW23-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchOutsVC" customModule="HashTag" customModuleProvider="target">
+            <connections>
+                <outlet property="btnEvents" destination="iBF-ZP-j8Q" id="Xyp-6e-5Y7"/>
+                <outlet property="btnNews" destination="2dR-ac-0p1" id="qxw-wG-CCo"/>
+                <outlet property="btnSurveys" destination="zph-z6-HeL" id="TA0-iB-YXo"/>
+                <outlet property="header" destination="de7-1s-cdj" id="Tyt-fV-8yW"/>
+                <outlet property="table" destination="3aj-44-kTK" id="nVH-j1-PYY"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="bmi-gZ-jfu"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="de7-1s-cdj" customClass="AuthNavigation" customModule="HashTag" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="100"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="mL3-qp-uWJ"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="3aj-44-kTK">
+                    <rect key="frame" x="10" y="193" width="373" height="659"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="659" id="wRl-4q-MvT"/>
+                    </constraints>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I9d-YV-sHP" customClass="KView" customModule="HashTag" customModuleProvider="target">
+                    <rect key="frame" x="15" y="124" width="362" height="61"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="sCJ-QA-iyI">
+                            <rect key="frame" x="5" y="5.6666666666666572" width="352" height="49"/>
+                            <subviews>
+                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2dR-ac-0p1">
+                                    <rect key="frame" x="0.0" y="0.0" width="112" height="49"/>
+                                    <fontDescription key="fontDescription" name="DINNextLTW23-Regular" family="DIN Next LT W23" pointSize="18"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="news">
+                                        <color key="titleColor" name="textColor"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="14"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                            <real key="value" value="0.0"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="newsActionWith_sender:" destination="-1" eventType="touchUpInside" id="kP5-k1-6AT"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zph-z6-HeL">
+                                    <rect key="frame" x="120" y="0.0" width="112" height="49"/>
+                                    <fontDescription key="fontDescription" name="DINNextLTW23-Regular" family="DIN Next LT W23" pointSize="18"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="surveys">
+                                        <color key="titleColor" name="textColor"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="14"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                            <real key="value" value="0.0"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="surveysActionWith_sender:" destination="-1" eventType="touchUpInside" id="N2J-0A-UPi"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iBF-ZP-j8Q">
+                                    <rect key="frame" x="240" y="0.0" width="112" height="49"/>
+                                    <fontDescription key="fontDescription" name="DINNextLTW23-Regular" family="DIN Next LT W23" pointSize="18"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="events">
+                                        <color key="titleColor" name="textColor"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="14"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                            <real key="value" value="0.0"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="eventActionWith_sender:" destination="-1" eventType="touchUpInside" id="zLr-xC-vi3"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="sCJ-QA-iyI" firstAttribute="leading" secondItem="I9d-YV-sHP" secondAttribute="leading" constant="5" id="9E8-IA-WNK"/>
+                        <constraint firstAttribute="trailing" secondItem="sCJ-QA-iyI" secondAttribute="trailing" constant="5" id="LzA-Q0-tjD"/>
+                        <constraint firstItem="sCJ-QA-iyI" firstAttribute="top" secondItem="I9d-YV-sHP" secondAttribute="top" constant="5.5" id="qZi-J5-KJq"/>
+                        <constraint firstAttribute="bottom" secondItem="sCJ-QA-iyI" secondAttribute="bottom" constant="6.3300000000000001" id="scb-Au-vKS"/>
+                        <constraint firstAttribute="height" constant="61" id="uSg-og-DiL"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="16"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColors">
+                            <color key="value" name="borderColor"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="3aj-44-kTK" secondAttribute="bottom" id="01J-Zk-Mvv"/>
+                <constraint firstItem="I9d-YV-sHP" firstAttribute="top" secondItem="de7-1s-cdj" secondAttribute="bottom" constant="24" id="5SH-Mb-qkL"/>
+                <constraint firstItem="3aj-44-kTK" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" constant="-10" id="5he-1v-trC"/>
+                <constraint firstItem="3aj-44-kTK" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="8Zc-e6-RWS"/>
+                <constraint firstItem="de7-1s-cdj" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="C5D-70-l8Z"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="I9d-YV-sHP" secondAttribute="trailing" constant="16" id="LdR-6g-shC"/>
+                <constraint firstItem="3aj-44-kTK" firstAttribute="top" secondItem="I9d-YV-sHP" secondAttribute="bottom" constant="8" symbolic="YES" id="Qhe-gU-I0Q"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="de7-1s-cdj" secondAttribute="trailing" id="cEs-BD-eVh"/>
+                <constraint firstItem="de7-1s-cdj" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="cKh-ny-3No"/>
+                <constraint firstItem="I9d-YV-sHP" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="lst-R6-Tk9"/>
+            </constraints>
+            <point key="canvasLocation" x="43.511450381679388" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="borderColor">
+            <color red="0.95686274509803926" green="0.96862745098039216" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="textColor">
+            <color red="0.46666666666666667" green="0.49411764705882355" blue="0.56470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

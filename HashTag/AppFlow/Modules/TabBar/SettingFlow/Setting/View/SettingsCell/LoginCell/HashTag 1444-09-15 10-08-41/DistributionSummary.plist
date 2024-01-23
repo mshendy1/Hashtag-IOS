@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HashTag.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>6</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>A4E6CBB2DFCC0C64C7C9D10F428F1D1607F48342</string>
+				<key>dateExpires</key>
+				<string>23/09/1445 AH</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>6</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>A4E6CBB2DFCC0C64C7C9D10F428F1D1607F48342</string>
+						<key>dateExpires</key>
+						<string>23/09/1445 AH</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>AEOTPTextField.framework</string>
+					<key>symbols</key>
+					<true/>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>D9Y77N8AZ9</string>
+						<key>name</key>
+						<string>DIGITAL TREND COMPANY FOR DEVELOPMENT AND COMMERCIAL INVESTMENT</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0</string>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>6</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>A4E6CBB2DFCC0C64C7C9D10F428F1D1607F48342</string>
+						<key>dateExpires</key>
+						<string>23/09/1445 AH</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>Alamofire.framework</string>
+					<key>symbols</key>
+					<true/>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>D9Y77N8AZ9</string>
+						<key>name</key>
+						<string>DIGITAL TREND COMPANY FOR DEVELOPMENT AND COMMERCIAL INVESTMENT</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0</string>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>6</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>A4E6CBB2DFCC0C64C7C9D10F428F1D1607F48342</string>
+						<key>dateExpires</key>
+						<string>23/09/1445 AH</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>AlignedCollectionViewFlowLayout.framework</string>
+					<key>symbols</key>
+					<true/>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>D9Y77N8AZ9</string>
+						<key>name</key>
+						<string>DIGITAL TREND COMPANY FOR DEVELOPMENT AND COMMERCIAL INVESTMENT</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0</string>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>6</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>A4E6CBB2DFCC0C64C7C9D10F428F1D1607F48342</string>
+						<key>dateExpires</key>
+						<string>23/09/1445 AH</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>AppAuth.framework</string>
+					<key>symbols</key>
+					<true/>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>D9Y77N8AZ9</string>
+						<key>name</key>
+						<string>DIGITAL TREND COMPANY FOR DEVELOPMENT AND COMMERCIAL INVESTMENT</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0</string>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>6</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>A4E6CBB2DFCC0C64C7C9D10F428F1D1607F48342</string>
+						<key>dateExpires</key>
+						<string>23/09/1445 AH</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>CDAlertView.framework</string>
+					<key>symbols</key>
+					<true/>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>D9Y77N8AZ9</string>
+						<key>name</key>
+						<string>DIGITAL TREND COMPANY FOR DEVELOPMENT AND COMMERCIAL INVESTMENT</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0</string>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>6</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>A4E6CBB2DFCC0C64C7C9D10F428F1D1607F48342</string>
+						<key>dateExpires</key>
+						<string>23/09/1445 AH</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>CHIPageControl.framework</string>
+					<key>symbols</key>
+					<true/>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>D9Y77N8AZ9</string>
+						<key>name</key>
+						<string>DIGITAL TREND COMPANY FOR DEVELOPMENT AND COMMERCIAL INVESTMENT</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0</string>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>6</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>A4E6CBB2DFCC0C64C7C9D10F428F1D1607F48342</string>
+						<key>dateExpires</key>
+						<string>23/09/1445 AH</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>DropDown.framework</string>
+					<key>symbols</key>
+					<true/>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>D9Y77N8AZ9</string>
+						<key>name</key>
+						<string>DIGITAL TREND COMPANY FOR DEVELOPMENT AND COMMERCIAL INVESTMENT</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0</string>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>6</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>A4E6CBB2DFCC0C64C7C9D10F428F1D1607F48342</string>
+						<key>dateExpires</key>
+						<string>23/09/1445 AH</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>FBSDKCoreKit.framework</string>
+					<key>symbols</key>
+					<true/>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>D9Y77N8AZ9</string>
+						<key>name</key>
+						<string>DIGITAL TREND COMPANY FOR DEVELOPMENT AND COMMERCIAL INVESTMENT</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0</string>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>6</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>A4E6CBB2DFCC0C64C7C9D10F428F1D1607F48342</string>
+						<key>dateExpires</key>
+						<string>23/09/1445 AH</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>FBSDKLoginKit.framework</string>
+					<key>symbols</key>
+					<true/>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>D9Y77N8AZ9</string>
+						<key>name</key>
+						<string>DIGITAL TREND COMPANY FOR DEVELOPMENT AND COMMERCIAL INVESTMENT</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0</string>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>6</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>A4E6CBB2DFCC0C64C7C9D10F428F1D1607F48342</string>
+						<key>dateExpires</key>
+						<string>23/09/1445 AH</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>FacebookCore.framework</string>
+					<key>symbols</key>
+					<true/>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>D9Y77N8AZ9</string>
+						<key>name</key>
+						<string>DIGITAL TREND COMPANY FOR DEVELOPMENT AND COMMERCIAL INVESTMENT</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0</string>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>6</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>A4E6CBB2DFCC0C64C7C9D10F428F1D1607F48342</string>
+						<key>dateExpires</key>
+						<string>23/09/1445 AH</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>GTMAppAuth.framework</string>
+					<key>symbols</key>
+					<true/>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>D9Y77N8AZ9</string>
+						<key>name</key>
+						<string>DIGITAL TREND COMPANY FOR DEVELOPMENT AND COMMERCIAL INVESTMENT</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0</string>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>6</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>A4E6CBB2DFCC0C64C7C9D10F428F1D1607F48342</string>
+						<key>dateExpires</key>
+						<string>23/09/1445 AH</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>GTMSessionFetcher.framework</string>
+					<key>symbols</key>
+					<true/>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>D9Y77N8AZ9</string>
+						<key>name</key>
+						<string>DIGITAL TREND COMPANY FOR DEVELOPMENT AND COMMERCIAL INVESTMENT</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0</string>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>6</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>A4E6CBB2DFCC0C64C7C9D10F428F1D1607F48342</string>
+						<key>dateExpires</key>
+						<string>23/09/1445 AH</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>GoogleSignIn.framework</string>
+					<key>symbols</key>
+					<true/>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>D9Y77N8AZ9</string>
+						<key>name</key>
+						<string>DIGITAL TREND COMPANY FOR DEVELOPMENT AND COMMERCIAL INVESTMENT</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0</string>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>6</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>A4E6CBB2DFCC0C64C7C9D10F428F1D1607F48342</string>
+						<key>dateExpires</key>
+						<string>23/09/1445 AH</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>IQKeyboardManager.framework</string>
+					<key>symbols</key>
+					<true/>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>D9Y77N8AZ9</string>
+						<key>name</key>
+						<string>DIGITAL TREND COMPANY FOR DEVELOPMENT AND COMMERCIAL INVESTMENT</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0</string>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>6</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>A4E6CBB2DFCC0C64C7C9D10F428F1D1607F48342</string>
+						<key>dateExpires</key>
+						<string>23/09/1445 AH</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>ImageSlideshow.framework</string>
+					<key>symbols</key>
+					<true/>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>D9Y77N8AZ9</string>
+						<key>name</key>
+						<string>DIGITAL TREND COMPANY FOR DEVELOPMENT AND COMMERCIAL INVESTMENT</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0</string>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>6</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>A4E6CBB2DFCC0C64C7C9D10F428F1D1607F48342</string>
+						<key>dateExpires</key>
+						<string>23/09/1445 AH</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>Indicate.framework</string>
+					<key>symbols</key>
+					<true/>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>D9Y77N8AZ9</string>
+						<key>name</key>
+						<string>DIGITAL TREND COMPANY FOR DEVELOPMENT AND COMMERCIAL INVESTMENT</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0</string>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>6</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>A4E6CBB2DFCC0C64C7C9D10F428F1D1607F48342</string>
+						<key>dateExpires</key>
+						<string>23/09/1445 AH</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>LanguageManager_iOS.framework</string>
+					<key>symbols</key>
+					<true/>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>D9Y77N8AZ9</string>
+						<key>name</key>
+						<string>DIGITAL TREND COMPANY FOR DEVELOPMENT AND COMMERCIAL INVESTMENT</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0</string>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>6</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>A4E6CBB2DFCC0C64C7C9D10F428F1D1607F48342</string>
+						<key>dateExpires</key>
+						<string>23/09/1445 AH</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>Lottie.framework</string>
+					<key>symbols</key>
+					<true/>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>D9Y77N8AZ9</string>
+						<key>name</key>
+						<string>DIGITAL TREND COMPANY FOR DEVELOPMENT AND COMMERCIAL INVESTMENT</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0</string>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>6</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>A4E6CBB2DFCC0C64C7C9D10F428F1D1607F48342</string>
+						<key>dateExpires</key>
+						<string>23/09/1445 AH</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>SDWebImage.framework</string>
+					<key>symbols</key>
+					<true/>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>D9Y77N8AZ9</string>
+						<key>name</key>
+						<string>DIGITAL TREND COMPANY FOR DEVELOPMENT AND COMMERCIAL INVESTMENT</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0</string>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>6</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>A4E6CBB2DFCC0C64C7C9D10F428F1D1607F48342</string>
+						<key>dateExpires</key>
+						<string>23/09/1445 AH</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>iOSDropDown.framework</string>
+					<key>symbols</key>
+					<true/>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>D9Y77N8AZ9</string>
+						<key>name</key>
+						<string>DIGITAL TREND COMPANY FOR DEVELOPMENT AND COMMERCIAL INVESTMENT</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0</string>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>6</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>A4E6CBB2DFCC0C64C7C9D10F428F1D1607F48342</string>
+						<key>dateExpires</key>
+						<string>23/09/1445 AH</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>netfox.framework</string>
+					<key>symbols</key>
+					<true/>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>D9Y77N8AZ9</string>
+						<key>name</key>
+						<string>DIGITAL TREND COMPANY FOR DEVELOPMENT AND COMMERCIAL INVESTMENT</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0</string>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>6</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>A4E6CBB2DFCC0C64C7C9D10F428F1D1607F48342</string>
+						<key>dateExpires</key>
+						<string>23/09/1445 AH</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>youtube_ios_player_helper.framework</string>
+					<key>symbols</key>
+					<true/>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>D9Y77N8AZ9</string>
+						<key>name</key>
+						<string>DIGITAL TREND COMPANY FOR DEVELOPMENT AND COMMERCIAL INVESTMENT</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0</string>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>D9Y77N8AZ9.com.HashTag.company</string>
+				<key>beta-reports-active</key>
+				<true/>
+				<key>com.apple.developer.applesignin</key>
+				<array>
+					<string>Default</string>
+				</array>
+				<key>com.apple.developer.team-identifier</key>
+				<string>D9Y77N8AZ9</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array/>
+			</dict>
+			<key>name</key>
+			<string>HashTag.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>03e681db-d84d-466f-8cec-ca6d5c16442d</string>
+				<key>dateExpires</key>
+				<string>23/09/1445 AH</string>
+				<key>name</key>
+				<string>iOS Team Store Provisioning Profile: com.HashTag.company</string>
+			</dict>
+			<key>symbols</key>
+			<true/>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>D9Y77N8AZ9</string>
+				<key>name</key>
+				<string>DIGITAL TREND COMPANY FOR DEVELOPMENT AND COMMERCIAL INVESTMENT</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>

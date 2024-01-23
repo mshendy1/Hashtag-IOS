@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Almarai-Bold.ttf">
+            <string>Almarai-Bold</string>
+        </array>
+        <array key="Almarai-Regular.ttf">
+            <string>Almarai-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="166" id="KGk-i7-Jjw" customClass="FAQCell" customModule="HashTag" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="166"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="166"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ELI-R1-u3J" customClass="KView" customModule="HashTag" customModuleProvider="target">
+                        <rect key="frame" x="5" y="5" width="310" height="155"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="ksA-JP-RhE">
+                                <rect key="frame" x="10" y="20" width="290" height="115"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gvr-qi-MaS">
+                                        <rect key="frame" x="0.0" y="0.0" width="290" height="20"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KmW-ph-QAS" customClass="MediumLabel" customModule="HashTag" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="260" height="20"/>
+                                                <fontDescription key="fontDescription" name="Almarai-Bold" family="Almarai" pointSize="18"/>
+                                                <color key="textColor" name="TitleColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lOd-Fj-T1I">
+                                                <rect key="frame" x="260" y="0.0" width="30" height="20"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron.left" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="kgW-hQ-nmg">
+                                                        <rect key="frame" x="4" y="-1" width="22" height="22.000000000000004"/>
+                                                        <color key="tintColor" name="PrimaryColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="22" id="3Q1-AN-oiF"/>
+                                                            <constraint firstAttribute="width" constant="22" id="fRM-z7-M5g"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="kgW-hQ-nmg" firstAttribute="centerX" secondItem="lOd-Fj-T1I" secondAttribute="centerX" id="Ipx-v2-vPZ"/>
+                                                    <constraint firstAttribute="width" constant="30" id="TSd-aS-FZv"/>
+                                                    <constraint firstItem="kgW-hQ-nmg" firstAttribute="centerY" secondItem="lOd-Fj-T1I" secondAttribute="centerY" id="cws-Bh-XtJ"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="CKU-ix-8i0"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="6ho-Rk-sla">
+                                        <rect key="frame" x="0.0" y="115" width="290" height="0.0"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E3e-Rq-ez9" customClass="RegularLabel" customModule="HashTag" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="290" height="0.0"/>
+                                                <fontDescription key="fontDescription" name="Almarai-Regular" family="Almarai" pointSize="14"/>
+                                                <color key="textColor" name="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="6ho-Rk-sla" firstAttribute="top" secondItem="ksA-JP-RhE" secondAttribute="top" constant="35.670000000000002" id="BrR-gM-bnW"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94509803921568625" green="0.95686274509803915" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ksA-JP-RhE" firstAttribute="top" secondItem="ELI-R1-u3J" secondAttribute="top" constant="20" id="Ana-HD-6Av"/>
+                            <constraint firstAttribute="bottom" secondItem="ksA-JP-RhE" secondAttribute="bottom" constant="20" id="apA-DN-aOJ"/>
+                            <constraint firstAttribute="trailing" secondItem="ksA-JP-RhE" secondAttribute="trailing" constant="10" id="ibb-5N-uIb"/>
+                            <constraint firstItem="ksA-JP-RhE" firstAttribute="leading" secondItem="ELI-R1-u3J" secondAttribute="leading" constant="10" id="yiJ-VZ-ekk"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="0.40000000000000002"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" systemColor="systemGray4Color"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="ELI-R1-u3J" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="4gR-cc-Ssv"/>
+                    <constraint firstAttribute="bottom" secondItem="ELI-R1-u3J" secondAttribute="bottom" constant="6" id="CG0-S9-dvb"/>
+                    <constraint firstItem="ELI-R1-u3J" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="vEw-Iw-XQR"/>
+                    <constraint firstAttribute="trailing" secondItem="ELI-R1-u3J" secondAttribute="trailing" constant="5" id="wO7-ct-GiP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="img" destination="kgW-hQ-nmg" id="tHW-X5-nwN"/>
+                <outlet property="lblAnswer" destination="E3e-Rq-ez9" id="jhx-iL-jgW"/>
+                <outlet property="lblQues" destination="KmW-ph-QAS" id="gbh-qs-sKM"/>
+                <outlet property="stackDetails" destination="6ho-Rk-sla" id="nrD-zj-gom"/>
+            </connections>
+            <point key="canvasLocation" x="85.496183206106863" y="62.676056338028175"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="chevron.left" catalog="system" width="97" height="128"/>
+        <namedColor name="PrimaryColor">
+            <color red="0.019607843137254902" green="0.61960784313725492" blue="0.29411764705882354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TitleColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="textColor">
+            <color red="0.46666666666666667" green="0.49411764705882355" blue="0.56470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
